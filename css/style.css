@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@100;200;300;400;500;600;700;800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Anek Malayalam', sans-serif;
+}
+.main_container {
+    background-color: #4e59ad;
+    height: 100vh;
+    width: 100%;
+    border: black 2px solid;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.container {
+    background-color: white;
+    height: 55%;
+    border-radius: 4px;
+    width: 450px;
+    /* border: 1px solid black; */
+}
+
+#input {
+    width: 100%;
+    padding: 5px 5px;
+    font-size: 16px;
+    margin: 5px 0;
+    outline: #525e64;
+}
+
+.content{
+    padding: 20px 30px ;
+    position: relative;
+}
+h1{
+    padding: 5px 0;
+    color: gray;
+    font-weight: 400;
+    font-size: 25px;
+}
+.lg_btn{
+    width: 100%;
+    margin: 5px 0;
+    padding: 7px;
+    font-size: 17px;
+    background-color: #dd4b39;
+    border: none;
+    color: #FFF;
+    font-family: 'Anek Malayalam', sans-serif;
+}
+.Google{
+    position: absolute;
+    top: 80px;
+    left: 42px;
+    color: #FFF;
+}
+.cross{
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    color: #525e64;
+}
+.cross:hover{
+    color: #dd4b39;
+}
+.login_btn{
+    background-color: #32c5d2;
+    border: none;
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+}
+.login_btn:hover{
+    opacity: 0.8;
+}
+.para1{
+    padding-left:50%;
+    padding-top: 10px;
+    font-weight: 400;
+    color: #525e64;
+}
+.para1:hover{
+    color: #32c5d2;
+}
+.btn_para{
+    /* margin-top: 0px; */
+    font-weight: 400;
+    color: #525e64;
+}
+.btn_para span:hover{
+    color: #32c5d2;
+}
+.btn_sm{
+    margin-left: 15%;
+    padding: 5px 20px;
+    outline: none;
+    border-radius: none;
+    border: 2px solid #525e64;
+    font-size: 15px;
+    font-weight: 600;
+    color: #525e64;
+}
+.btn_sm:hover{
+    background-color:#525e64 ;
+    color: #FFF;
+}
+
+@media (max-width:515px) {
+    .container {
+        height: 55%;
+        width: 400px;
+    }
+    .para1{
+        padding-left:45%;
+    }
+    .btn_sm{
+        margin-left: 5%;
+        padding: 5px 15px;
+    }
+}
+@media (max-width:410px) {
+    .container {
+        height: 55%;
+        width: 350px;
+    }
+    .para1{
+        padding-left:35%;
+    }
+    .btn_sm{
+        margin-left: 2%;
+        padding: 5px 2px;
+    }
+}
+@media (max-width:330px) {
+    .container {
+        height: 60%;
+        width: 350px;
+    }
+}
